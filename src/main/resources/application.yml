@@ -1,0 +1,9 @@
+ldap:
+  base:
+    dn: 'dc=example,dc=com '
+  password: 'password '
+  urls: ldap://ldap.forumsys.com:389/
+  user:
+    dn:
+      pattern: uid={0}
+  username: cn=read-only-admin,dc=example,dc=com
